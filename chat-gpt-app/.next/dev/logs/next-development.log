@@ -1,0 +1,7 @@
+[00:55:09.059] Server  ERROR    ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- /Users/klaasvanderweij/WebstormProjects/ProNextJS/chat-gpt-app/node_modules/.pnpm/next@16.0.3_@babel+core@7.28.5_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/klaasvanderweij/WebstormProjects/ProNextJS/chat-gpt-app/node_modules/.pnpm/next@16.0.3_@babel+core@7.28.5_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/klaasvanderweij/WebstormProjects/ProNextJS/chat-gpt-app/node_modules/.pnpm/next@16.0.3_@babel+core@7.28.5_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/klaasvanderweij/WebstormProjects/ProNextJS/chat-gpt-app/node_modules/.pnpm/next@16.0.3_@babel+core@7.28.5_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/server/lib/router-server.js
+- /Users/klaasvanderweij/WebstormProjects/ProNextJS/chat-gpt-app/node_modules/.pnpm/next@16.0.3_@babel+core@7.28.5_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/server/lib/start-server.js
