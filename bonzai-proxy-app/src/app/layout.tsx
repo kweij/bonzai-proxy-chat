@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Link from "next/link";
+
 import "./globals.css";
 
 const geistSans = Geist({
@@ -25,8 +27,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased px-2 md:px-4`}
       >
+      <header className="bg-sidebar text-sidebar-foreground border-sidebar-border border border-t-0 px-4 py-2 rounded-b-lg">
+          <div className="flex grow gap-2">
+              <Link href="/" className="font-bold">Bonzai Chat</Link>
+              <Link href="/about" className="font-light">About</Link>
+          </div>
+      </header>
         {children}
       </body>
     </html>
