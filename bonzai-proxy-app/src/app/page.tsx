@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-      <main className="p-4">
-          <h1 className="text-4xl font-bold">Welcome to Bonzai proxy chat</h1>
-      </main>
+    <main className="p-4">
+      <h1 className="text-4xl font-bold">Welcome to Bonzai proxy chat</h1>
+    </main>
   );
 }
