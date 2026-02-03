@@ -1,5 +1,8 @@
 minimumReleaseAge: 10080
 
 strictDepBuilds: true
+allowBuilds:
+  sharp: false
+  unrs-resolver: false
 
 strictPeerDependencies: true
