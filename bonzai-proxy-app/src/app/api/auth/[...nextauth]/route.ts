@@ -6,6 +6,7 @@ console.log(process.env)
 const authOptions = {
   callbacks: {
     async signIn({user, account, profile} : {user: never, account: never, profile: {login: string}}) {
+      console.log(user, account, profile)
       return profile.login === 'kweij';
     },
   } as unknown as CallbacksOptions,
