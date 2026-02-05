@@ -1,6 +1,8 @@
 import NextAuth, {CallbacksOptions} from 'next-auth';
 import GitHubProvider from 'next-auth/providers/github';
 
+console.log(process.env)
+
 const authOptions = {
   callbacks: {
     async signIn({user, account, profile} : {user: never, account: never, profile: {login: string}}) {
