@@ -1,7 +1,7 @@
 import NextAuth, {CallbacksOptions} from 'next-auth';
 import GitHubProvider from 'next-auth/providers/github';
 
-console.log(process.env)
+console.log(process.env.GITHUB_ID)
 
 const authOptions = {
   callbacks: {
