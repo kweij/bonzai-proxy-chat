@@ -1,8 +1,6 @@
 import NextAuth, {CallbacksOptions} from 'next-auth';
 import GitHubProvider from 'next-auth/providers/github';
 
-console.log(process.env.GITHUB_ID)
-
 const authOptions = {
   callbacks: {
     async signIn({user, account, profile} : {user: never, account: never, profile: {login: string}}) {
@@ -12,7 +10,7 @@ const authOptions = {
   } as unknown as CallbacksOptions,
   providers: [
     GitHubProvider({
-      clientId: process.env.GITHUB_ID ?? '',
+      clientId: process.env.GITHUB_CLIENT_ID ?? '',
       clientSecret: process.env.GITHUB_SECRET ?? '',
     }),
   ],
