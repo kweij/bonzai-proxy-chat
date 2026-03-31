@@ -4,9 +4,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold">Welcome to Bonzai proxy chat</h1>
       <div className="inline-flex flex-col items-end">
         <code className="mt-4">process.env.NEXTAUTH_URL = {process.env.NEXTAUTH_URL}</code>
-        <code className="mt-4">process.env.NEXTAUTH_SECRET = {process.env.NEXTAUTH_SECRET}</code>
         <code className="mt-4">process.env.GITHUB_ID = {process.env.GITHUB_ID}</code>
-        <code className="mt-4">process.env.GITHUB_SECRET = {process.env.GITHUB_SECRET}</code>
       </div>
     </main>
   );
