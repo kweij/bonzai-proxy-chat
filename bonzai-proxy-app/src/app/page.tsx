@@ -5,6 +5,8 @@ export default function Home() {
       <div className="inline-flex flex-col items-end">
         <code className="mt-4">process.env.NEXTAUTH_URL = {process.env.NEXTAUTH_URL}</code>
         <code className="mt-4">process.env.GITHUB_ID = {process.env.GITHUB_ID}</code>
+        <code className="mt-4">process.env.TEST = {process.env.TEST}</code>
+        <code className="mt-4">process.env.VERCEL_FORCE_NO_BUILD_CACHE = {process.env.VERCEL_FORCE_NO_BUILD_CACHE}</code>
       </div>
     </main>
   );
